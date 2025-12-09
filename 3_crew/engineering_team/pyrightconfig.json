@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+  "include": [
+    "src",
+    "example_output_mini",
+    "example_output_4o",
+    "example_output_new",
+    "output"
+  ],
+  "extraPaths": [
+    "example_output_mini",
+    "example_output_4o",
+    "example_output_new",
+    "output"
+  ],
+  "stubPath": "typings"
+}
