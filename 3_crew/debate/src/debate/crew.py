@@ -1,3 +1,4 @@
+from tabnanny import verbose
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
@@ -16,7 +17,9 @@ class Debate():
             config=self.agents_config['debater'],
             verbose=True
         )
-
+    @agent
+    def oposer(self)->Agent:
+        return Agent(config=self.agents_config['oposer'],verbose=True)
     @agent
     def judge(self) -> Agent:
         return Agent(

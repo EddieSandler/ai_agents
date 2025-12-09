@@ -18,7 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'motion': 'There needs to be strict laws to regulate LLMs',
+        'motion': 'recruiting and hiring , particulrly for tech roles  is more effective in the USA compared to other countries',
     }
     
     try:
